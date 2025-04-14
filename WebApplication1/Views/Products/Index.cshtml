@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebApplication1.Models.Product>
+
+@{
+    ViewBag.title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>HoaShop</h1>
+    <p>This is a demostration about implement e-commerce website that selling products</p>
+    <p><a href="#" class="btn btn-lg" role="button">Learn more</a></p>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div onclick="window.location.href='/Products/Details/@item.Id'" class="thumbnail">
+                    <img src="https://placehold.co/600x400" alt="Responsive Image" class="img-responsive img-rounded" />
+                    <div class="caption">
+                        <h3>@item.Name</h3>
+                        <p>@item.Price</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
+                            <a href="#" class="btn btn-default" role="button">Button</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

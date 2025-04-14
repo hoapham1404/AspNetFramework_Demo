@@ -74,3 +74,7 @@ C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplic
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.dll
+C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.xml
+C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.SqlServer.xml
