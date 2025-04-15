@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebApplication1.Models.CartItemViewModel>
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cart</h2>
+
+@if (!Model.Any())
+{<p>Your cart is empty</p>}
+else
+{
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th style="width:120px;">Quantity</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="col-md-6">
+            @Json.Encode(Model)
+        </div>
+    </div>
+}

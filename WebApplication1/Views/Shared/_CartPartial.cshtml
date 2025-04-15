@@ -1,0 +1,8 @@
+@{ 
+var cartCount = WebApplication1.Helpers.CartSessionHelper.CountItems(Session);
+}
+
+<a href="@Url.Action("Cart", "Order")" class="">
+	<i class="glyphicon glyphicon-shopping-cart"></i>
+	<span class="cart-count">@cartCount</span>
+</a>

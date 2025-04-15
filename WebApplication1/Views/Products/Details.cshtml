@@ -1,33 +1,32 @@
 ﻿@model WebApplication1.Models.Product
 
 @{
-    ViewBag.Title = "Details";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    var formatMoney = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+ViewBag.Title = "Details";
+Layout = "~/Views/Shared/_Layout.cshtml";
+var formatMoney = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
 }
 
-
 <ol class="breadcrumb">
-    <li><a href="@Url.Action("Index","Products")">Home</a></li>
-    <li class="active">@Model.Name</li>
+	<li><a href="@Url.Action("Index","Products")">Home</a></li>
+	<li class="active">@Model.Name</li>
 </ol>
 <span  class="glyphicon glyphicon-arrow-left"></span>  @Html.ActionLink("Back to List", "Index")
 
 <div style="margin-top: 2vh">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="https://placehold.co/1000" alt="detail-product" class="img-responsive img-rounded"/>
-        </div>
-        <div class="col-md-6">
-            <h1><strong>@Model.Name</strong></h1>
-            <h3>
-                @String.Format(formatMoney, "{0:c}", @Model.Price)
-            </h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non tortor at odio bibendum feugiat. Vivamus luctus nisl id posuere commodo. Duis sapien ex, hendrerit sit amet sapien sit amet, mollis semper tortor. Praesent efficitur elit eu nisi semper, sit amet ultricies augue sodales. Cras ac orci velit. Integer ut purus vitae sem semper interdum. Maecenas libero lacus, rutrum in accumsan quis, vestibulum in urna. In ac consectetur mauris, id iaculis massa. Ut vitae tristique ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nunc ante, molestie in tortor in, rhoncus viverra erat. Aenean a lobortis elit. Sed augue magna, aliquet a tincidunt ac, facilisis non felis. Aenean vel leo in dolor sagittis blandit nec ac lorem.
-                Vivamus sit amet finibus purus, bibendum facilisis quam. Sed porta magna quis nunc interdum, a pretium lorem aliquet. Aliquam ut consectetur odio. Integer leo mauris, sodales ac imperdiet id, egestas sit amet augue. Praesent at nunc blandit, molestie nibh a, iaculis odio. Donec ligula dui, euismod at luctus eu, pulvinar id massa. Vestibulum faucibus quam ac porttitor elementum. Cras imperdiet hendrerit est ac porta. Suspendisse congue ante sapien, condimentum ullamcorper lorem efficitur in. In vel nisl faucibus, convallis magna ut, vulputate nibh. Integer ultrices nisl urna, nec porta tellus eleifend ac. Vestibulum maximus sagittis lectus, eget hendrerit justo ultrices in. Vestibulum non neque vitae sapien finibus pellentesque et finibus mauris. Suspendisse iaculis risus erat, id aliquam mauris bibendum vel.
-            </p>
-            <button class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="margin-right: 1vw;"></span>Add to Cart</button>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-md-6">
+			<img src="https://placehold.co/1000" alt="detail-product" class="img-responsive img-rounded"/>
+		</div>
+		<div class="col-md-6">
+			<h1><strong>@Model.Name</strong></h1>
+			<h3>
+				@String.Format(formatMoney, "{0:c}", @Model.Price)
+			</h3>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non tortor at odio bibendum feugiat. Vivamus luctus nisl id posuere commodo. Duis sapien ex, hendrerit sit amet sapien sit amet, mollis semper tortor. Praesent efficitur elit eu nisi semper, sit amet ultricies augue sodales. Cras ac orci velit. Integer ut purus vitae sem semper interdum. Maecenas libero lacus, rutrum in accumsan quis, vestibulum in urna. In ac consectetur mauris, id iaculis massa. Ut vitae tristique ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nunc ante, molestie in tortor in, rhoncus viverra erat. Aenean a lobortis elit. Sed augue magna, aliquet a tincidunt ac, facilisis non felis. Aenean vel leo in dolor sagittis blandit nec ac lorem.
+			Vivamus sit amet finibus purus, bibendum facilisis quam. Sed porta magna quis nunc interdum, a pretium lorem aliquet. Aliquam ut consectetur odio. Integer leo mauris, sodales ac imperdiet id, egestas sit amet augue. Praesent at nunc blandit, molestie nibh a, iaculis odio. Donec ligula dui, euismod at luctus eu, pulvinar id massa. Vestibulum faucibus quam ac porttitor elementum. Cras imperdiet hendrerit est ac porta. Suspendisse congue ante sapien, condimentum ullamcorper lorem efficitur in. In vel nisl faucibus, convallis magna ut, vulputate nibh. Integer ultrices nisl urna, nec porta tellus eleifend ac. Vestibulum maximus sagittis lectus, eget hendrerit justo ultrices in. Vestibulum non neque vitae sapien finibus pellentesque et finibus mauris. Suspendisse iaculis risus erat, id aliquam mauris bibendum vel.
+			</p>
+			<button class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="margin-right: 1vw;"></span>Add to Cart</button>
+		</div>
+	</div>
 </div>

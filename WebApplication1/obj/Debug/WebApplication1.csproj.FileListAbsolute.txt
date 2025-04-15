@@ -69,12 +69,12 @@ C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\System.Web.WebP
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\Newtonsoft.Json.xml
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\Antlr3.Runtime.pdb
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
-C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.pdb
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.dll
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.SqlServer.dll
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.xml
 C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\hoapq\Workspace\demo\WebApplication\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
